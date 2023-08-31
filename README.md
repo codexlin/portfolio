@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + TailWind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+该项目基于React18+ TypeScript + Vite + TailWind + Eslint + Prettier搭建,使用最新版本最热门的技术实现的个人主页网站.
 
-Currently, two official plugins are available:
+## 项目特色
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.炫酷的界面2.平滑的动画效果3.赛博风4.文本逐字打印效果5.数字平滑过渡效果
+...
 
-## Expanding the ESLint configuration
+### framer-motion
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Framer Motion 是一个用于创建流畅动画和交互效果的动画库。它提供了一种在 React 应用中创建各种动画的方式，包括过渡、变换、运动和交互式动画等。您可以使用 Framer Motion 来制作引人注目的用户界面动画，使您的应用更具吸引力。
 
-- Configure the top-level `parserOptions` property like this:
+### react-countup
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+react-countup 是一个用于在数字之间添加平滑过渡效果的库。它通常用于数字计数器，例如在展示统计数据、计时器或其他需要数字动态变化的场景中。这个库使您能够以动画方式显示数字的递增或递减，而不是突然变化。
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### react-intersection-observer
+
+react-intersection-observer 是一个用于观察 DOM 元素与视口之间交叉区域变化的库。它可以帮助您检测元素何时进入或离开视口，从而为您提供在元素可见性变化时触发回调函数的能力。这在懒加载图像、实现无限滚动或其他需要观察元素可见性的情况下非常有用。
+
+### react-scroll
+
+react-scroll 是一个用于在页面内滚动时实现平滑滚动效果的库。它提供了一种简便的方式来处理在点击链接或其他交互操作时，页面平滑地滚动到指定的部分。这可以为用户提供更好的滚动体验，而不是突然地跳转到新的位置。
+
+### react-type-animation
+
+react-type-animation 是一个用于实现文本逐字打印效果的库。它可以让您以一种逐字逐句的方式显示文本，就像打字机一样。这种效果在展示标题、标语、引言或其他需要吸引人的文本效果时很有用。
