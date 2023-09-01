@@ -31,9 +31,9 @@ const Banner = () => {
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]
           "
             >
-              <span className="text-white mr-4">I am a</span>
+              <span className="text-white mr-4">我是一名</span>
               <TypeAnimation
-                sequence={['Developer', 2000, 'Designer', 2000, 'Youtuber', 2000]}
+                sequence={['前端工程师', 2000, '后端工程师', 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
@@ -47,8 +47,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Portfolio Website With React JS & Tailwind CSS,Portfolio Website With React JS & Tailwind CSS. Portfolio
-              Website With React JS & Tailwind CSS
+              大家好，我是Lin，一名热衷于前端开发的工程师。我热衷于不断学习新的技术和最佳实践，以保持在快速发展的前端领域中的竞争力。在我的业余时间，我喜欢分享我的知识和见解，实现小案例，撰写前端开发博客，并积极参与开源社区。
             </motion.p>
             <motion.div
               variants={fadeIn('up', 0.6)}
@@ -57,9 +56,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg">联系我</button>
               <a href="#" className="text-gradient btn-link">
-                My Portfolio
+                iFolio
               </a>
             </motion.div>
             {/*  socials*/}

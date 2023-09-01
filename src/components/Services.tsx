@@ -5,19 +5,19 @@ import { BsArrowUpRight } from 'react-icons/bs'
 
 const services = [
   {
-    name: 'UI/UX Design',
-    desc: 'Portfolio Website With React JS & Tailwind CSS',
-    link: 'Learn more'
+    name: '前端开发',
+    desc: '主要使用React18+Vue3+TypeScript等技术栈进行前端开发',
+    link: '了解更多'
   },
   {
-    name: 'Backend Developer',
-    desc: 'Portfolio Website With React JS & Tailwind CSS',
-    link: 'Learn more'
+    name: '后端开发',
+    desc: '主要使用基于SpringBoot3+Mysql8.0+MyBatis-Plus技术栈开发后端',
+    link: '了解更多'
   },
   {
-    name: 'Front-end Developer',
-    desc: 'Portfolio Website With React JS & Tailwind CSS',
-    link: 'Learn more'
+    name: 'UI/UX 设计',
+    desc: '使用工具如Figma或Sketch来创建原型和设计界面',
+    link: '了解更多'
   }
 ]
 
@@ -34,9 +34,11 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat"
           >
-            <h2 className="h2 text-accent mb-6">What I Do.</h2>
-            <h3 className="h3 max-w-[455px] mb-16">Portfolio Website With React JS & Tailwind CSS</h3>
-            <button className="btn btn-sm">See my work</button>
+            <h2 className="h2 text-accent mb-6">我做什么.</h2>
+            <h3 className="h3 max-w-[455px] mb-16">
+              我主要参与前端开发与后端开发.包括搭建项目框架,开发系统功能,编写测试文档,项目部署上线...
+            </h3>
+            <button className="btn btn-sm">看我的作品</button>
           </motion.div>
           {/*services*/}
           <motion.div

@@ -10,14 +10,15 @@ const Contact = () => {
           initial="hidden"
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className="flex flex-1 justify-start items-center"
+          className="flex flex-1 justify-start items-center flex-col lg:flex-row"
         >
           {/*text*/}
           <div className="flex-1">
             <div>
-              <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">Get in touch</h4>
+              <h4 className="text-xl uppercase text-accent font-medium mb-2 tracking-wide">保持联系</h4>
               <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
-                Let's Work <br /> together!
+                让我们
+                <br /> 一起工作吧!
               </h2>
             </div>
           </div>
@@ -33,18 +34,18 @@ const Contact = () => {
             <input
               type="text"
               className="bg-transparent border-b py-3 placeholder:text-white focus:border-accent transition-all outline-none w-full"
-              placeholder="Your name"
+              placeholder="您的名字"
             />
             <input
               type="text"
               className="bg-transparent border-b py-3 placeholder:text-white focus:border-accent transition-all outline-none w-full"
-              placeholder="Your email"
+              placeholder="您的邮箱"
             />
             <textarea
               className="resize-none mb-12 bg-transparent border-b py-12 placeholder:text-white focus:border-accent transition-all outline-none w-full"
-              placeholder="Your message"
+              placeholder="您的消息"
             />
-            <button className="btn btn-lg">Send message</button>
+            <button className="btn btn-lg">发送消息</button>
           </motion.form>
         </motion.div>
       </div>

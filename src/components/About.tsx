@@ -31,14 +31,16 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-accent">About me.</h2>
-            <h3 className="h3 mb-4">xxasdasdasdasdasdadqwerqrfafas</h3>
-            <p className="mb-6">More</p>
+            <h2 className="h2 text-accent">关于我.</h2>
+            <h3 className="h3 mb-4">
+              我有良好的沟通和问题解决能力并拥有广泛的前端技术知识，包括HTML、CSS和JavaScript，以及流行的前端框架如React和Vue.js。能够创建语义化的网页结构和精美的响应式网站。经验丰富的React.js和Vue.js开发，能够构建交互式单页应用（SPA）。熟悉常用库高效管理和开发项目并且优化代码和资源以提高网页加载速度和性能.
+            </h3>
+            <p className="mb-6">更多</p>
             {/*  stats*/}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="mb-2 text-[40px] font-tertiary text-gradient">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br /> Experience
@@ -47,7 +49,6 @@ const About = () => {
               <div>
                 <div className="mb-2 text-[40px] font-tertiary text-gradient">
                   {inView ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br /> Completed
@@ -56,7 +57,6 @@ const About = () => {
               <div>
                 <div className="mb-2 text-[40px] font-tertiary text-gradient">
                   {inView ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br /> Clients
@@ -64,9 +64,9 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg">联系我</button>
               <a href="#" className="text-gradient btn-link">
-                My Portfolio
+                iFolio
               </a>
             </div>
           </motion.div>

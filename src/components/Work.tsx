@@ -18,15 +18,9 @@ const Work = () => {
           >
             {/*  text*/}
             <div>
-              <h2 className="h2 leading-tight text-accent">
-                My Latest <br />
-                Work.
-              </h2>
-              <p className="max-w-sm mb-8">
-                Portfolio Website With React JS & Tailwind CSS,Portfolio Website With React JS & Tailwind Portfolio
-                Website With React JS & Tailwind CSSCSS
-              </p>
-              <button className="btn btn-sm">View all projects</button>
+              <h2 className="h2 leading-tight text-accent">我最近的工作.</h2>
+              <p className="max-w-sm mb-8">最近主要在实现一个新闻媒体系统与一个互联网资源管理的开源网站.</p>
+              <button className="btn btn-sm">查看所有项目</button>
             </div>
             {/*  image*/}
             <div className=" group relative overflow-hidden border-2 border-white/50 rounded-xl">
