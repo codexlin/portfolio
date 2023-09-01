@@ -1,7 +1,6 @@
-import React from 'react'
+import { motion } from 'framer-motion'
 import CountUp from 'react-countup'
 import { useInView } from 'react-intersection-observer'
-import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
 
 const About = () => {
@@ -22,9 +21,7 @@ const About = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px]
-          mix-blend-lighten bg-top
-          "
+            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
           ></motion.div>
           {/*text*/}
           <motion.div
@@ -36,7 +33,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">xxasdasdasdasdasdadqwerqrfafas</h3>
-            <p className="mb-6">Lorem</p>
+            <p className="mb-6">More</p>
             {/*  stats*/}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>

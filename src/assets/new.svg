@@ -1,0 +1,29 @@
+<svg width="482" height="516" viewBox="0 0 482 516" fill="none" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path
+        d="M393.133 63.6606C437.24 103.483 464.009 161.24 475.568 222.34C487.432 283.441 484.39 348.19 453.667 393.18C423.248 438.169 365.147 463.704 305.831 485.591C246.209 507.478 185.372 526.021 134.876 509.91C84.6849 493.798 45.1402 443.337 23.2386 389.836C1.33697 336.639 -2.92168 280.705 1.64116 220.821C5.89981 160.936 18.3716 97.0989 57.3078 56.669C95.9399 15.9351 161.036 -1.69604 224.004 0.12787C287.275 2.25576 349.025 23.8387 393.133 63.6606Z"
+        fill="url(#paint0_linear_963_685)" />
+    <mask id="mask0_963_685" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="482" height="516">
+        <path
+            d="M393.133 63.6606C437.24 103.483 464.009 161.24 475.568 222.34C487.432 283.441 484.39 348.19 453.667 393.18C423.248 438.169 365.147 463.704 305.831 485.591C246.209 507.478 185.372 526.021 134.876 509.91C84.6849 493.798 45.1402 443.337 23.2386 389.836C1.33697 336.639 -2.92168 280.705 1.64116 220.821C5.89981 160.936 18.3716 97.0989 57.3078 56.669C95.9399 15.9351 161.036 -1.69604 224.004 0.12787C287.275 2.25576 349.025 23.8387 393.133 63.6606Z"
+            fill="url(#paint1_linear_963_685)" />
+    </mask>
+    <g mask="url(#mask0_963_685)">
+        <rect x="42" y="-127" width="470" height="706" fill="url(#pattern0)" />
+    </g>
+    <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use xlink:href="#image0_963_685" transform="translate(-0.000770342) scale(0.00036673 0.000244141)" />
+        </pattern>
+        <linearGradient id="paint0_linear_963_685" x1="335" y1="78.5" x2="-148" y2="516" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#860095" />
+            <stop offset="1" stop-color="#FA15FF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_963_685" x1="335" y1="78.5" x2="-148" y2="516" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#860095" />
+            <stop offset="1" stop-color="#FA15FF" />
+        </linearGradient>
+        <image id="image0_963_685" width="2731" height="4096" xlink:href="about.png">
+        </image>
+    </defs>
+</svg>
